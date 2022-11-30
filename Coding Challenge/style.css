@@ -1,0 +1,81 @@
+body{
+  background-image: url("immagini/background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.container{
+  font-family: 'Poppins', sans-serif;
+  width: 750px;
+  margin: 20px auto auto auto;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 80px 75px 110px 75px;
+  border-radius: 15px;
+}
+
+.logo{
+  width:190px;
+  margin: auto;
+  display: block;
+}
+
+.titolo{
+  text-align: center;
+  margin: 0;
+  color: #39ff14;
+}
+
+.container-pulsanti{
+  padding: 5px;
+  background-color: #39ff14;
+  display: flex;
+  justify-content: center;
+}
+
+.pulsante1, .pulsante2, .pulsante3{
+  margin: 2px;
+  font-size: 10px;
+}
+
+.checkbox{
+  width: 10px;
+  height: 10px;
+}
+
+.monopattino {
+  margin: 10px 0 0 0;
+}
+
+.nome-monopattino{
+  display: inline-block;
+  margin: 10px 0 0 0;
+  color: white;
+}
+
+.posizione, .carica{
+  margin: 0;
+  font-size: 12px;
+  color: white;
+  font-weight: 200;
+}
+
+.mezzo-carico{
+  background-color: #CC7722;
+  width: 250px;
+  height: 23px;
+  border-radius: 5px;
+}
+
+.carico{
+  background-color: #39ff14;
+  width: 450px;
+  height: 23px;
+  border-radius: 5px;
+}
+
+.scarico{
+  background-color: #FF0000;
+  width: 150px;
+  height: 23px;
+  border-radius: 5px;
+}
